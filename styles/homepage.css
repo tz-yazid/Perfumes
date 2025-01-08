@@ -1,5 +1,6 @@
 *{
     /*background-color: rgb(255, 255, 255);*/
+    /* i fix the problem of images of background that appear in img and input and navbar */
     background-image: url("https://stylecaster.com/wp-content/uploads/2020/04/best-floral-fragrances-amazon.jpg?w=600&h=337&crop=1");
     box-sizing: border-box;
     background-repeat: no-repeat;
