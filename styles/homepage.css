@@ -1,21 +1,32 @@
 *{
-    background-color: rgb(255, 255, 255);
+    /*background-color: rgb(255, 255, 255);*/
+    background-image: url("https://stylecaster.com/wp-content/uploads/2020/04/best-floral-fragrances-amazon.jpg?w=600&h=337&crop=1");
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-size: cover;
 }
+#div{
+  background: transparent;
+}
 #img{
-  /* width: 500px;
-  height: 500px; */
-  /* margin-bottom:20%; */
+  /*houssem didnt like logo when is bigger*/
+  /*but if you still want to change the width and height then do it*/
+  /*dont forget to delete the comments*/
+  /* width: 500px;*/
+  /*height: 500px; */
+  /*if you avaible this margin-bottom it becomes more problem*/
+  /* margin-bottom:20%;*/
   width: 120px;
+  background: transparent;
 }
 .navbar {
-    background-color: #c82fca;
+   background: transparent;
+    background-color: #131213;
     overflow:hidden;
   }
 
   .navbar a {
+    background: transparent;
     color: #221f1f;
     background-color: rgb(47, 71, 94);
     text-align: center;
@@ -34,6 +45,7 @@
     color: white;
   }
   .placeholder{
+    background: transparent;
     width: 1200px;
     margin-top: 20px;
     margin-left: 4rem;
