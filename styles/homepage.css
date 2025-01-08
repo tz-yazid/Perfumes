@@ -1,0 +1,46 @@
+*{
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    margin-bottom:20%;
+}
+
+.navbar {
+    background-color: #151414;
+    overflow:hidden;
+  }
+  
+  .navbar a {
+    color: #221f1f;
+    background-color: rgb(25, 26, 27);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+  }
+  
+ 
+  .navbar a:hover {
+    background-color: #cec1c1;
+    color: rgb(188, 108, 171);
+  }
+  
+
+  .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .placeholder{
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 4rem;
+    margin-right: 1000rem;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+  }
