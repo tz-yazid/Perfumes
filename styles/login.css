@@ -1,21 +1,72 @@
 *{
-background-size: cover;
+  margin: 0;
+  padding: 0;
 box-sizing: border-box;
-background-repeat: no-repeat;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
-  background-color: rgb(153, 179, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: rgb(75, 85, 85);
+  background-size: cover;
+  background-position: center;
 
 }
 
 .loginbox{
-  border-top: 50px;
-  border-color: blue;
+ position: relative;
+ width: 400px;
+ height: 440px;
+ background: transparent;
+ border: 2px solid rgb(139, 134, 126);
+ border-radius: 20px;
+ backdrop-filter: blur(200px);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
 }
 .loginbox #logincontainer {
-    border-top: 50px;
-  border-color: blue;
+    width: 100%;
+    padding: 40px;
 }
-#h1{
-text-align: center;
+.loginbox .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background:#162938 ;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+
+}
+
+#butt{
+  text-align: center;
+  margin-top: 1cm;
+  margin-left: 40px;
+  padding-left: 20px;
+  padding-right: 4px;
+}
+#username{
+  margin-bottom: 50%;
+}
+
+
+.passwordbox{
+  position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+ 
 }
