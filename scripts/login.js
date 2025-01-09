@@ -4,24 +4,26 @@ function Login(name,password){
    obj.password=password
    return obj
 }
-var name = document.getElementById("username").value
-var password = document.getElementById("pass").value
+var name = $("username").val()
+var password = $("pass").val()
 var newuser = Login(name,password)
+var array = [newuser]
 var button= document.getElementById("butt")
- button.addEventListener("click",test)
+ button.on("click",test)
  function test(){
-   if (newuser.name ==="" || newuser.password==="") {
-      alert('check your name name and password');
- }
- else {
-   alert('login succesfully');
-   }
- }
- var array = [newuser]
+   array.map(function(e){
+    if(e.name!==name ||e.password!==password){
+    alert("check your name and password");
+    window.location.href="../pages/homepage.html"
+    }
+// localStorage.setItem("users",JSON.stringify(array))
+// JSON.parse(localStorage.getItem("users"))
+   })
+  }
+ 
 var add=function(newuser){
     array.push(newuser)
 }
-localStorage.getItem("users",array)
-JSON.stringify(array)
-JSON.parse(array)
+
+
 
