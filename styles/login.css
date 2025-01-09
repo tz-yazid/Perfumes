@@ -26,8 +26,12 @@ h1{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 2em;
   text-align: center;
+<<<<<<< HEAD
   color:#cc907b;
   margin-bottom: 20px;
+=======
+  padding: 10%;
+>>>>>>> 20be0803c443360d22be8ab7a0f1af69ef46463e
 }
 .usernamebox,.passwordbox{
   margin-bottom: 20px;
