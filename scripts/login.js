@@ -8,6 +8,9 @@ var name = $("username").val()
 var password = $("pass").val()
 var newuser = Login(name,password)
 var array = [newuser]
+var add=function(newuser){
+  array.push(newuser)
+}
 var button= document.getElementById("butt")
  button.on("click",test)
  function test(){
@@ -21,9 +24,7 @@ var button= document.getElementById("butt")
    })
   }
  
-var add=function(newuser){
-    array.push(newuser)
-}
+
 
 
 
