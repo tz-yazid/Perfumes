@@ -6,20 +6,18 @@ function Login(name,password){
 }
 var newuser = Login('','')
 var array = [newuser]
-Login.prototype.button=function(){
-   if (this.name===null || this.password===null) {
-      return 'please enter a name and password'
-   }
-   else {
-       return 'login succesfully'
-      }
-  }
- function test(){
-   var name = document.getElementById("username")
-  var password = document.getElementById("password")
- }
- var button= document.getElementById("butt")
+var name = document.getElementById("username")
+var password = document.getElementById("password")
+var button= document.getElementById("butt")
  button.addEventListener("click",test)
+ function test(){
+   if (this.name===null || this.password===null) {
+    return 'please enter a name and password'
+ }
+ else {
+     return 'login succesfully'
+    }
+ }
 var add=function(newuser){
     array.push(newuser)
 }
