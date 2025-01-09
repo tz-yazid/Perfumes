@@ -29,6 +29,7 @@ for(var i=0; i<array.lentgh; i++){
      }
      return "undefined"
 }
-
-localStorage.set
+localStorage.setItem("users",array)
+JSON.stringify(array)
+JSON.parse(array)
 
