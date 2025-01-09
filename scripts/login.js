@@ -8,16 +8,17 @@ var name = document.getElementById("username").value
 var password = document.getElementById("pass").value
 var newuser = Login(name,password)
 var button= document.getElementById("butt")
+
  button.addEventListener("click",test)
  function test(){
    if (newuser.name ==="" || newuser.password==="") {
-      alert('check your name name and password');
+      alert('check your name and password');
  }
  else {
    alert('login succesfully');
    }
  }
- var array = [newuser]
+var array = [newuser]
 var add=function(newuser){
     array.push(newuser)
 }
