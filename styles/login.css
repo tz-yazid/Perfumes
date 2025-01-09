@@ -1,3 +1,21 @@
+*{
+background-size: cover;
+box-sizing: border-box;
+background-repeat: no-repeat;
+}
+body{
+  background-color: rgb(153, 179, 179);
+
+}
+
+.loginbox{
+  border-top: 50px;
+  border-color: blue;
+}
+.loginbox #logincontainer {
+    border-top: 50px;
+  border-color: blue;
+}
 #h1{
 text-align: center;
 }
