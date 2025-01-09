@@ -4,29 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acceuil</title>
-    <link rel="stylesheet" href="../styles/homepage.css">
+    <link rel="stylesheet" href="/styles/homepage.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" ></script>
 </head>
 <body id="body">
     <header id="change">
-        <img id="img" src="../photos/logo.png" alt="this is logo">
+        <img id="img" src="/photos/logo.png" alt="this is logo">
         <marquee id="mar"> Memory Perfumes</marquee>
         <marquee id="marq" direction="right" style="border: palevioletred 2px solid" duration:10s>FREE TO CHOOSE</marquee>
         <div class="navbar">
-            <a class="homepage" href="../pages/homepage.html">Home</a>
-            <a href="../pages/signUp.html">Register</a>
-            <a href="../pages/login.html">Login</a>
-            <a href="../pages/aboutus.html">About us</a>
+            <a class="homepage" href="/pages/homepage.html">Home</a>
+            <a href="/pages/signUp.html">Register</a>
+            <a href="/pages/login.html">Login</a>
+            <a href="/pages/aboutus.html">About us</a>
         </div>
     </header>
     <div id="div">
-        <input class="placeholder" type="text" placeholder="Search perfumes, brands ,news....">
+        <img id="perfumeimg" alt="perfume">
+        <input class="placeholder" id="perfumeid" type="text" placeholder="Search perfumes, brands ,news....">
+         <label id="perfumename" for="perfumeid"></label>
+        <button id="button" >Search</button>
     </div>
     <div id="vid">
         <video  controls autoplay width="320px" height="240" style="background: transparent;">
         <source  src="../video/video.mp4">
         </video>
     </div>
-    <script src="../scripts/signUp.js"></script>
+    <script src="/scripts/homepage.js"></script>
 </body>
 </html>
