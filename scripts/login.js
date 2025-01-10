@@ -12,8 +12,9 @@ button.addEventListener("click", function() {
       return;  
   }
   var users = getUsersFromLocalStorage();  
-  var userFound = false;
+  
   users.map(function(e) {
+    var userFound = false;
       if (e.name === username && e.password === password) {
           userFound = true;
       }
