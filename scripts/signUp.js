@@ -1,15 +1,11 @@
 function saveUserData(name, password) {
   var user = { name: name, password: password };
-  var users = JSON.parse(localStorage.getItem("users")) || [];
-  users.map(function(e) {
-      if (e.name !== name || e.password !== password) {
-        
+  var users =  [];
+  
           users.push(user);
-      }
-  });
+  
   localStorage.setItem("users", JSON.stringify(users));
 }
-
 var button = document.getElementById("butt");
 button.addEventListener("click", function() {
   var username = document.querySelector("input[type=text]").value;  
