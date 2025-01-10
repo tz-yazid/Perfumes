@@ -1,12 +1,9 @@
 function saveUserData(name, password) {
   var user = { name: name, password: password };
   var users =  [];
-  users.map(function(e) {
-      if (e.name !== name || e.password !== password) {
-        
+  
           users.push(user);
-      }
-  });
+  
   localStorage.setItem("users", JSON.stringify(users));
 }
 var button = document.getElementById("butt");

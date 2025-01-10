@@ -12,6 +12,8 @@ function getUsersFromLocalStorage() {
     }
     var users = getUsersFromLocalStorage();
     var userFound = false;
+    console.log(users,"users");
+    
     users.map(function(e) {
         if (e.name === username && e.password === password) {
             userFound = true;
