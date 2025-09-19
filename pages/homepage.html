@@ -9,7 +9,6 @@
 </head>
 <body id="body">
     <header id="change">
-        
         <img id="img" src="../photos/logo.png" alt="this is logo">
         <marquee id="mar"> Memory Perfumes</marquee>
         <marquee id="marq" direction="right">FREE TO CHOOSE</marquee>
@@ -20,24 +19,34 @@
             <a href="../pages/aboutus.html">About us</a>
         </div>
     </header>
+
     <div id="div">
         <div class="search-box">
-        <button id="button" >Search</button>
-        <input class="placeholder" id="perfumeid" type="text" placeholder="Search perfumes, brands ,news....">
+            <button id="button">Search</button>
+            <input class="placeholder" id="perfumeid" type="text" placeholder="Search perfumes, brands ,news....">
+        </div>
+
+        <div class="add-perfume">
+            <input id="perfumeName" type="text" placeholder="Perfume Name">
+            <input id="perfumeImgFile" type="file" accept="image/*">
+            <button id="addPerfumeButton">Add Perfume</button>
+        </div>
+
+        <div id="perfumeDisplay"></div>
     </div>
-</div>
+
     <div id="vid">
-        <video  controls width="320px" height="240" style="background: transparent;">
-        <source  src="../video/video.mp4">
-    </video>
-        <video controls width="320px" height="240" style="background: transparent;">
-        <source src="../video/video1.mp4">
+        <video controls autoplay width="320px" height="240" style="background: transparent;">
+            <source src="../video/video.mp4">
         </video>
-        <video controls width="320px" height="240" style="background: transparent;">
-        <source src="../video/video2.mp4">
+        <video controls autoplay width="320px" height="240" style="background: transparent;">
+            <source src="../video/video1.mp4">
         </video>
-        
+        <video controls autoplay width="320px" height="240" style="background: transparent;">
+            <source src="../video/video2.mp4">
+        </video>
     </div>
+
     <script src="../scripts/homepage.js"></script>
 </body>
 </html>

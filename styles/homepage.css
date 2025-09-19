@@ -13,68 +13,71 @@
 }
 .navbar {
   padding: 1.2%;
-   background: rgba(154, 154, 154, 0.9);
-    box-shadow: 0 2px 10px rgba(169, 143, 143, 0.5);
-    overflow:hidden;
-  }
-
-  .navbar a {
-    text-decoration:solid;
-    background: transparent;
-    color: #ffff;
-    background-color: rgba(187, 195, 202, 0.8);
+  background: rgba(154, 154, 154, 0.9);
+  box-shadow: 0 2px 10px rgba(169, 143, 143, 0.5);
+  overflow:hidden;
+}
+.navbar a {
+    background: rgba(187, 195, 202, 0.8);
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: background-color 0.3s , color 0.3s;
     font-size: 20px;
-  }
-  .navbar a:hover {
-    background-color: rbga(206 ,193 , 193 , 0.8);
+    transition: background-color 0.3s, color 0.3s;
+}
+.navbar a:hover {
+    background-color: rgba(206, 193, 193, 0.8);
     color: rgb(188, 108, 171);
-  }
-  .navbar a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  .searchbox{
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-    margin-left: 4rem;
-  }
-  .placeholder{
-    background: transparent;
-    width: 300px;
-    height: 5vh;
-    padding: 10px;
-  }
-  #mar, #marq{
+}
+#mar, #marq{
     background: transparent;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
     color: #9d6090;
-  }
-  
-  #vid{
+}
+#vid{
     text-align: center;
     background: transparent;
-  }
-  .tester{
+}
+#perfumeDisplay {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+    background: transparent;
+}
+.tester {
     text-align: center;
+    background: rgba(255,255,255,0.8);
+    border-radius: 8px;
+    padding: 10px;
     background: transparent;
-  }
-
- .tester #see{
-    display: block;
-    margin:0 auto;
-    height: 200px;
-  }
-  .tester #h4{
+}
+.tester #see {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.tester #h4 {
+    color: #333;
     background: transparent;
-   
-  }
-  #button{
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: transparent;
+}
+.placeholder{
+    background: transparent;
+    width: 300px;
+    height: 5vh;
+    padding: 10px;
+}
+#button{
     background: transparent;
     margin-right: 10px;
     display: inline-block;
@@ -82,4 +85,23 @@
     font-size: 16px;
     border: 1px solid rgba(187, 195, 202, 0.8);
     cursor: pointer;
-  }
+}
+#addPerfumeButton{
+  background: transparent;
+}
+.add-perfume{
+  background: transparent;
+}
+#see{
+  background: transparent;
+}
+#h4{
+  font-size: 30px;
+  
+}
+#perfumeImgFile{
+  background: transparent;
+}
+#perfumeName{
+  background: transparent;
+}
